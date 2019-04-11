@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    @*<meta http-equiv="x-ua-compatible" content="ie=edge">*@
+    @*<title>@ViewBag.Title - My ASP.NET Application</title>*@
+
+    @*<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600">*@
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto%3A700%2C300">
+    @*<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Permanent+Marker">*@
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C800%2C500">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    @Styles.Render("~/bundles/CSSCompulsory")
+    @Styles.Render("~/bundles/CSSImplementation")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/CSSImplementingPlugins/icon-hs/style.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-etlinefont/style.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-line-pro/communication/webfont/styles.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-line-pro/hotel-restaurant/webfont/styles.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-line-pro/style.css" rel="stylesheet" />
+    <link href="~/Content/CSSImplementingPlugins/icon-line/css/simple-line-icons.css" rel="stylesheet" />
+</head>
+<body class="g-bg-lightblue-radialgradient-ellipse">
+    <div class="home-btn">
+        <a href="~/">
+            <div class="menu-btn">
+                <!-- For modern browsers. -->
+                <i class="material-icons">home</i>
+            </div>
+        </a>
+    </div>
+    <div class="mask"></div>
+    <div class="toggle" style="display: block;" id="navToggle">
+        <div id="menukubtel" class="menu-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    @*<div class="js-smart-menu u-smart-nav u-smart-nav--top-right g-transition-0_3 u-smart-nav--shown u-smart-nav--opened" data-fix-moment="300">
+        <button class="u-smart-nav__toggler btn u-btn-white g-pa-0" id="u-smart-menu-toggler-1" aria-label="Toggle navigation" aria-haspopup="true" aria-expanded="false" aria-controls="smart-menu-1">
+            <span class="hamburger hamburger--collapse is-active">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </span>
+        </button>
+        <nav class="navbar u-shadow-v17 g-bg-white g-rounded-10 g-pa-20 g-pb-15 g-transition-0_3" id="smart-menu-1" aria-labelledby="u-smart-menu-toggler-1">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="row container pr-0">
+                        <a href="/">
+                            <img id="logo-menu" src="~/Images/KUBtel.png" />
+                        </a>
+                    </div>
+                    <div class="row container pr-0">
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-facebook g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.facebook.com/kubtelmalaysia/">
+                            <i class="fa fa-facebook" style="font-size:24px"></i>
+                        </a>
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-instagram g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.instagram.com/kubtelekomunikasisdnbhd/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-linkedin g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.linkedin.com/company/kub-telekomunikasi">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">ABOUT US</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/AboutUs/" title="Our Company">Our Company</a></li>
+                        <li><a href="~/AboutUs/VisionMission" title="Vision and Mission">Vision and Mission</a></li>
+                        <li><a href="~/AboutUs/Leadership" title="KUBTel Leadership">KUBtel Leadership</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">BUSINESS INFO &amp; PORTFOLIO</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/BizInfo/BestPractice" title="BestPractice">Best Practice Adoption</a></li>
+                        <li><a href="~/BizInfo/BizFocus" title="BizFocus">Business Focus 2018-2020</a></li>
+                        <li><a href="~/BizInfo/ProjectExperiences" title="Maintenance">Project Experiences</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">LINE OF BUSINESS (LOB)</div>
+                    <ul class="submenu-titles">
+                        <li>
+                            <a href="~/LOB/Enterprise" title="Enterprise">Enterprise</a>
+                        </li>
+                        <li><a href="~/LOB/Telcos" title="Telcos">Telcos</a></li>
+                        <li><a href="~/LOB/SiteOffice" title="SiteOffice">Site Office</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">PARTNER &amp; CONTACT US</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/PartnerUs/" title="Partners">Partners</a></li>
+                        <li><a href="~/PartnerUs/Location" title="Location">Location</a></li>
+                        <li><a href="~/PartnerUs/ContactUs" title="ContactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">NEWS &amp; OTHER</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/Events/" title="News">KUBtel's Events</a></li>
+                        <li><a href="~/Events/Careers" title="Careers">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>*@
+    <div class="menu">
+        <div class="container-nav">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="row container pr-0">
+                        <a href="~/">
+                            <img id="logo-menu" src="~/Images/KUBtel.png" />
+                        </a>
+                    </div>
+                    <div class="row container pr-0">
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-facebook g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.facebook.com/kubtelmalaysia/">
+                            <i class="fa fa-facebook" style="font-size:24px"></i>
+                        </a>
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-instagram g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.instagram.com/kubtelekomunikasisdnbhd/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="u-icon-v3 u-icon-size--sm g-bg-linkedin g-rounded-30 g-color-white g-color-white--hover g-mr-3 g-mb-3" href="https://www.linkedin.com/company/kub-telekomunikasi">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">ABOUT US</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/AboutUs/" title="Our Company">Our Company</a></li>
+                        <li><a href="~/AboutUs/VisionMission" title="Vision and Mission">Vision and Mission</a></li>
+                        <li><a href="~/AboutUs/Leadership" title="KUBTel Leadership">KUBtel Leadership</a></li>
+                    </ul>                   
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">        
+                    <div class="menu-title">BUSINESS INFO &amp; PORTFOLIO</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/BizInfo/BestPractice" title="BestPractice">Best Practice Adoption</a></li>
+                        <li><a href="~/BizInfo/BizFocus" title="BizFocus">Business Focus 2018-2020</a></li>
+                        <li><a href="~/BizInfo/ProjectExperiences" title="Maintenance">Project Experiences</a></li>                       
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">LINE OF BUSINESS (LOB)</div>
+                    <ul class="submenu-titles">
+                        <li>
+                            <a href="~/LOB/Enterprise" title="Enterprise">Enterprise</a>
+                        </li>                        
+                        <li><a href="~/LOB/Telcos" title="Telcos">Telcos</a></li>
+                        <li><a href="~/LOB/SiteOffice" title="SiteOffice">Site Office</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">PARTNER &amp; CONTACT US</div>
+                    <ul class="submenu-titles">                        
+                        <li><a href="~/PartnerUs/" title="Partners">Partners</a></li>
+                        <li><a href="~/PartnerUs/Location" title="Location">Location</a></li>
+                        @*<li><a href="~/PartnerUs/ContactUs" title="ContactUs">Contact Us</a></li>*@
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="menu-title">NEWS &amp; OTHER</div>
+                    <ul class="submenu-titles">
+                        <li><a href="~/Events/" title="News">KUBtel's Events</a></li>
+                        @*<li><a href="~/Events/Careers" title="Careers">Careers</a></li>*@
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <div id="footer" class="g-bg-img-hero container-fluid" style="background-image: url(@Url.Content("~/images/svg/svg-bg1.svg")););">
+        <div class="row align-items-center">
+            <div class="col-md-12 text-center text-md-right">
+                <small class="d-block g-font-size-12">© 2018 KUB Telekomunikasi Sdn. Bhd. All Rights Reserved.</small>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/JSGlobalCompulsory")
+    @Scripts.Render("~/bundles/JSImplementingPlugins")
+    @Scripts.Render("~/bundles/JSPages")
+    @*<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCPQ8urhzOIJBvOvk6hUpN2o_AlDL0wqx8&callback=initMap" async defer></script>*@
+    <script type="text/javascript">
+            var UrlHome = "@Url.Action("Index", "Home")";
+            var UrlAboutUs = "@Url.Action("AboutUs", "Home")";
+            $(function () {
+                $(".mask").hide();
+            });
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

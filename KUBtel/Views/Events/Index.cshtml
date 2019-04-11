@@ -1,0 +1,433 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class=" pageHeader g-bg-img-hero medium-bottom-margin" style="background-image: url(@Url.Content("~/Images/3-News.jpg"));" >
+    <center><h1 class="g-color-white g-font-weight-600 g-line-height-1_4">KUBTEL's EVENTS</h1></center>
+</div>
+
+<div class="container-fluid">    
+    @*<div class=" g-bg-lightblue-radialgradient-ellipse">
+        <div class="container text-center g-width-780 g-color-gray-light-v2 g-mb-60">
+            <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-40">
+                <h3 class="h6 g-font-weight-800 g-font-size-12 g-letter-spacing-2 g-color-primary g-mb-20">KubTel</h3>
+                <h2 class="h1 u-heading-v2__title g-line-height-1_3 g-font-weight-600 g-font-size-40 g-color-black--active g-mb-minus-10">Latest news</h2>
+            </div>
+            <p class="g-color-black mb-10">All latest news about us.</p>
+        </div>
+    </div>*@
+    <div class="container-fluid px-0" style=" padding-top:30px;  padding-bottom:30px">
+        <div class="js-carousel g-line-height-0"
+             data-infinite="true"
+             data-autoplay="true"
+             data-speed="5000"
+             data-rows="2"
+             data-slides-show="4"
+             data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 4
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 3
+                 }
+               }, {
+                 "breakpoint": 768,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 576,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-2-21.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Feb 21, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">KUBtel town hall Q1 2018</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-2-11.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Feb 11, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Kemuncak Integrity Talka></a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-2-8.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Feb 8, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Integrity Talk : Zero Tolerance Against Corruption</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-2-7.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Feb 7, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Nokia NSI Huawei IUC Outsourcing briefing</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-26.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 26, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">execution plan retreat 2018 #kubtel #strongertogether</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-26.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 26, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Work hard, play harder</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 w-100 h-100 g-transition--ease-in" src="~/Images/News/18-1-22.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 22, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Surprise Birthday Mr.Azizul</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-13.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 13, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Bubble sports tournament from Kelab KUB</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-12.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 12, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">KUBtel received a visitor</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-11.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 11, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Employee benefit programme implementation</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/18-1-10.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Jan 10, 2018</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Our new office at laman seri business park section 13 shah alam.</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-12-14.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Dec 14, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">majlis jamuan dan doa selamat sempena berpindah ke pejabat baru.</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-12-6.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Dec 6, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Day 2: Procurement training - vendor management, monitoring and control </a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-12-5.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Dec 5, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Procurement training - vendor management, monitoring and control</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-11-30.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Nov 30, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Project management training 2017</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-11-27.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Nov 27, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Women power talk</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-11-22.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Nov 22, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Project management simulation workshop</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-10-30.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Oct 30, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Long Black Flat White With Azizul</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-10-8.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Oct 8, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Exploring collaboration opportunities with uniMARA</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-10-2.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Oct 2, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">KUBtel with Delegation from Fujitsu Telecommunications Asia Sdn Bhd</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-9-24.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Sept 24, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Organized by KUB Club</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-9-12~15.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Sept 12~15, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Business Plan 2018-2020 and Team Building</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-8-26.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">Aug 26, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">Town Hall August 2017</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js-slide">
+                <div class="g-parent g-pos-rel g-overflow-hidden" style=" padding-top:20px;  padding-bottom:20px">
+                    <img class="img-fluid g-transform-scale-1_1--parent-hover  w-100 h-100 g-transition-0_3 g-transition--ease-in" src="~/Images/News/17-7-24.jpg" alt="Image description" style="border-radius: 25px">
+                    <div class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
+                        <div class="g-flex-middle-item--bottom">
+                            <header class="g-mb-5">
+                                <h4 class="g-font-weight-700 g-font-size-12 g-color-gray-light-v4 g-mb-5">July 24, 2017</h4>
+                                <h3 class="text-uppercase g-font-weight-700 g-font-size-18 mb-0">
+                                    <a class="g-color-white" href="https://www.facebook.com/kubtelmalaysia/">KUB Malaysia Hari Raya Open House</a>
+                                </h3>
+                            </header>
+                            <p class="g-color-gray-light-v4 mb-0">By KUB Telekomunikasi Sdn Bhd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

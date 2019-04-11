@@ -1,0 +1,140 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div class=" pageHeader medium-bottom-margin" style="background-image: url(@Url.Content("~/Images/pic/Intergration.jpg"));">
+        <center><h1 class="g-color-white g-font-weight-600 g-line-height-1_4">Internship Opportunities</h1></center>
+    </div>
+
+    <div class="container-fluid">
+        <div class="g-bg-img-hero g-bg-pos-top-center" style="background-image: url(@Url.Content("~/Images/cloud.jpg"));">
+            <div class="container g-pt-100 g-pb-20">
+                <!-- Heading -->
+                <div class="g-max-width-645 text-center mx-auto g-mb-40">
+                    <h1 class="g-font-size-40--md mb-4">Job Internship Application</h1>
+                    <p>Please complete the form below to apply for a position with us.</p>
+                </div>
+                <!-- End Heading -->
+                <div class="row justify-content-lg-center align-items-center">
+                    <div class="col-md-10 col-lg-7 g-mb-50">
+                        <!-- Contact Form -->
+                        <form class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50" method="post" enctype="multipart/form-data" name="form_80648043363456" id="80648043363456" accept-charset="utf-8">
+                            <input type="hidden" name="formID" value="80648043363456" />
+                            <!-- Name Input -->
+                            <div class="row align-items-center mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Name:</label>
+                                    <span class="form-required">
+                                        *
+                                    </span>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input type="text" id="fullname" name="q11_fullName" class="form-control validate[required] g-brd-none g-bg-secondary g-bg-secondary-dark-v1--focus rounded g-px-20 g-py-12" placeholder="name..." required="" />
+                                </div>
+                            </div>
+                            <!-- End Name Input -->
+                            <!-- Email Input -->
+                            <div class="row align-items-center mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Email Address:</label>
+                                    <span class="form-required">
+                                        *
+                                    </span>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input class="form-control validate[required] g-brd-none g-bg-secondary g-bg-secondary-dark-v1--focus rounded g-px-20 g-py-12" type="email" placeholder="email..." required="">
+                                </div>
+                            </div>
+                            <!-- End Email Input -->
+                            <!-- phone Input -->
+                            <div class="row align-items-center mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Phone Number:</label>
+                                    <span class="form-required">
+                                        *
+                                    </span>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input class="form-control validate[required] g-brd-none g-bg-secondary g-bg-secondary-dark-v1--focus rounded g-px-20 g-py-12" type="text" placeholder="phone number..." required="">
+                                </div>
+                            </div>
+                            <!-- End phone Input -->
+                            <!-- Address Input -->
+                            <div class="row mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Current Address:</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <textarea class="form-control g-brd-none g-bg-secondary g-bg-secondary-dark-v1--focus rounded g-px-20 g-py-12" rows="5" placeholder="address..."></textarea>
+                                </div>
+                            </div>
+                            <!-- End Address Input -->
+                            <!-- Duration Input -->
+                            <div class="row mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Intern Duration:</label>
+                                    <span class="form-required">
+                                        *
+                                    </span>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input class="form-control g-brd-none g-bg-secondary g-bg-secondary-dark-v1--focus rounded g-px-20 g-py-12" type="text" placeholder="month..." data-component="duration" required="">
+                                </div>
+                            </div>
+                            <!-- End Duration Input -->
+                            <!-- date Input -->
+                            <div class="row mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Select date range:</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <!-- Datepicker -->
+                                    <div class="input-group g-brd-primary--focus">
+                                        <input id="datepickerFrom" class="form-control form-control-md u-datepicker-v1 g-brd-right-none rounded-0" type="text" placeholder="Start date" data-range="true" data-to="datepickerTo">
+                                        <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-dark-v5 rounded-0">
+                                            <i class="icon-calendar"></i>
+                                        </div>
+                                    </div>
+                                    <!-- End Datepicker -->
+                                    <!-- Datepicker -->
+                                    <div class="input-group g-brd-primary--focus">
+                                        <input id="datepickerTo" class="form-control form-control-md u-datepicker-v1 g-brd-right-none rounded-0"  type="text" placeholder="Expected finish date">
+                                        <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-dark-v5 rounded-0">
+                                            <i class="icon-calendar"></i>
+                                        </div>
+                                    </div>
+                                    <!-- End Datepicker -->
+                                </div>
+                            </div>
+                            <!-- End date Input -->
+                            <!-- Resume Input -->
+                            <div class="row mb-4">
+                                <div class="col-lg-4">
+                                    <label class="g-font-weight-500 g-font-size-16">Upload Resume:</label>
+                                    <span class="form-required">
+                                        *
+                                    </span>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div id="cid_8" class="form-input-wide jf-required">
+                                        <input type="file" id="input_8" name="q8_Upload_Resume" class="form-upload validate[required]" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, mp3, wma, mpg, flv, jpg, png, gif" data-file-maxsize="500" data-file-minsize="0" data-file-limit="0" data-component="fileupload" required="" />
+                                    </div>                               
+                                </div>
+                            </div>
+                            <!-- End Resume Input -->
+
+                            <div id="cid_9" class="form-input-wide">
+                                <div class="form-buttons-wrapper text-right">
+                                    <button id="input_9" type="submit" class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-10" data-component="button">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- End Contact Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

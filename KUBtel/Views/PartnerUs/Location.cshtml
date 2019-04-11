@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pageHeader g-bg-img-hero medium-bottom-margin" style="background-image: url(@Url.Content("~/Images/companylocation.jpg"));">
+    <center><h1 class="g-color-white g-font-weight-600 g-line-height-1_4">COMPANY LOCATION</h1></center>
+</div>
+
+<div class="container-fluid">
+    <div class="masonry-grid row">
+        <div class="masonry-grid-sizer col-sm-1"></div>
+        <div class="masonry-grid-item col-sm-9 col-lg-9 g-mb-30">
+            @*<div id="GMapTerrain" class="js-g-map embed-responsive embed-responsive-21by9" data-type="terrain" data-lat="3.0924546" data-lng="101.543544" data-title="HTMLSTREAM" data-pin="true"></div>*@
+            <div class="embed-responsive embed-responsive-16by9">
+                @*<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3983.0922314!2d101.5412611!3d3.1584770000000155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d6d1b9159b%3A0x974d9bfa21a7d13e!2sKhazanah+Nasional!5e0!3m2!1sen!2smy!4v1422329395854" style="border: 0px currentColor; border-image: none;" frameborder="0">
+                </iframe>*@
+                <iframe class="embed-responsive-item" src="https://maps.google.com/maps?q=kub%20telekomunikasi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe> 
+            </div>
+        </div>
+        <div class="masonry-grid-item col-sm-3 col-lg-3 g-mb-30">
+            <div class="u-shadow-v1-5 g-bg-img-hero g-line-height-2 g-pa-30 g-bg-svg-bg1" role="alert">
+                @*<div class="g-pa-50 g-pa-70--md">*@
+                <h2 class="h2 g-color-black">Our Office</h2>
+                <!-- Contact Details -->
+                <ul class="list-unstyled g-color-black-opacity-0_7 g-font-weight-300 g-font-size-16 g-line-height-1_8 mb-0">
+                    <li class="g-my-10">
+                        <div class="media">
+                            <i class="d-flex g-color-primary g-font-size-30 mt-1 mr-4 icon-hotel-restaurant-235 u-line-icon-pro"></i>
+                            <div class="media-body">
+                                Unit G 30, Level G-430, Level 4, Block 4, Laman Seri Business Park,
+                                <br>Pesiaran Sukan Section 13, 40100 Shah Alam, Selangor.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="g-my-30">
+                        <div class="media">
+                            <i class="d-flex g-color-primary g-font-size-30 mt-1 mr-4 icon-communication-062 u-line-icon-pro"></i>
+                            <div class="media-body">
+                                info@kubtel.com
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <i class="d-flex g-color-primary g-font-size-30 mt-1 mr-4 icon-communication-033 u-line-icon-pro"></i>
+                            <div class="media-body">
+                                +603-55143800
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- End Contact Details -->
+            </div>
+        </div>
+        @*<div class="masonry-grid-item col-sm-9 col-lg-9 g-mb-30">
+            <div id="GMapStreetView" class="js-g-map embed-responsive embed-responsive-21by9" data-type="street-view" data-lat="3.091275" data-lng="101.543591"></div>
+        </div>*@
+        <div class="masonry-grid-item col-sm-3 col-lg-3 g-mb-30">
+            <div class="u-shadow-v1-5 g-line-height-2 g-pa-30 g-bg-img-hero g-bg-svg-bg1" role="alert">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="h2 g-color-black">Office Hours</h2>
+                        <ul class="g-list-style-circle d-block g-font-size-16">
+                            <li><font style="font-weight:500;">Monday-Friday :</font> 09:00 AM - 06:00 PM</li>
+                            <li><font style="font-weight:500;">Saturday :</font> 12:00 AM - 03:00 PM</li>
+                            <li><font style="font-weight:500;">Sunday &amp; Holidays :</font> Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
