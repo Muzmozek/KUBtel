@@ -1,10 +1,10 @@
 ﻿var revapi1073;
 
-$(window).on("load", function () {
-    $(".loading").fadeOut("slow", function () {
-        $(".cover").fadeOut("slow", function () { });
-    });
-});
+//$(window).on("load", function () {
+//    $(".loading").fadeOut("slow", function () {
+//        $(".cover").fadeOut("slow", function () { });
+//    });
+//});
 
 $(document).ready(function () {
     //$(window).bind('orientationchange', check);
@@ -25,7 +25,7 @@ $(document).ready(function () {
     //    }
     //});
 
-    $.HSCore.components.HSCarousel.init('.js-carousel');
+    //$.HSCore.components.HSCarousel.init('.js-carousel');
 
     $(".toggle").bind("click", function () {
         if ($(".menu").children().hasClass("container-nav-toggled")) {
@@ -145,52 +145,52 @@ function initMap() {
     $.HSCore.components.HSGMap.init('.js-g-map');
 }
 
-var slider = new MasterSlider();
+//var slider = new MasterSlider();
 
-slider.control('arrows', {
-    autohide: true,
-    overVideo: true
-});
-slider.control('slideinfo', {
-    autohide: false,
-    overVideo: true,
-    dir: 'h',
-    align: 'bottom',
-    inset: false,
-    margin: 10
-});
-slider.setup("masterslider", {
-    width: 240,
-    height: 240,
-    minHeight: 0,
-    space: 35,
-    start: 1,
-    grabCursor: true,
-    swipe: true,
-    mouse: true,
-    keyboard: false,
-    layout: "partialview",
-    wheel: false,
-    autoplay: false,
-    instantStartLayers: false,
-    loop: true,
-    shuffle: false,
-    preload: 4,
-    heightLimit: true,
-    autoHeight: false,
-    smoothHeight: true,
-    endPause: false,
-    overPause: true,
-    fillMode: "fill",
-    centerControls: true,
-    startOnAppear: false,
-    layersMode: "center",
-    autofillTarget: "",
-    hideLayers: false,
-    fullscreenMargin: 0,
-    speed: 20,
-    dir: "h",
-    viewOption: { centerSpace: 1.6 },
-    parallaxMode: 'swipe',
-    view: "focus"
-});
+//slider.control('arrows', {
+//    autohide: true,
+//    overVideo: true
+//});
+//slider.control('slideinfo', {
+//    autohide: false,
+//    overVideo: true,
+//    dir: 'h',
+//    align: 'bottom',
+//    inset: false,
+//    margin: 10
+//});
+//slider.setup("masterslider", {
+//    width: 240,
+//    height: 240,
+//    minHeight: 0,
+//    space: 35,
+//    start: 1,
+//    grabCursor: true,
+//    swipe: true,
+//    mouse: true,
+//    keyboard: false,
+//    layout: "partialview",
+//    wheel: false,
+//    autoplay: false,
+//    instantStartLayers: false,
+//    loop: true,
+//    shuffle: false,
+//    preload: 4,
+//    heightLimit: true,
+//    autoHeight: false,
+//    smoothHeight: true,
+//    endPause: false,
+//    overPause: true,
+//    fillMode: "fill",
+//    centerControls: true,
+//    startOnAppear: false,
+//    layersMode: "center",
+//    autofillTarget: "",
+//    hideLayers: false,
+//    fullscreenMargin: 0,
+//    speed: 20,
+//    dir: "h",
+//    viewOption: { centerSpace: 1.6 },
+//    parallaxMode: 'swipe',
+//    view: "focus"
+//});

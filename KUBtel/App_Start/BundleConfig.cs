@@ -11,7 +11,7 @@ namespace KUBtel
             bundles.Add(new ScriptBundle("~/bundles/JSGlobalCompulsory").Include(
                         "~/Scripts/JSGlobalCompulsory/jquery-{version}.js",
                         "~/Scripts/JSGlobalCompulsory/jquery-migrate-3.0",
-                        "~/Scripts/JSGlobalCompulsory/jquery.validate*",
+                        //"~/Scripts/JSGlobalCompulsory/jquery.validate*",
                         "~/Scripts/JSGlobalCompulsory/jquery.easing.js"
                         ));
 
@@ -32,7 +32,7 @@ namespace KUBtel
                       "~/Scripts/JSImplementingPlugins/revolution/revolution.extension.navigation.js",
                       "~/Scripts/JSImplementingPlugins/revolution/revolution.extension.parallax.js",
                       "~/Scripts/JSImplementingPlugins/revolution/revolution.extension.slideanims.js",
-                      "~/Scripts/JSImplementingPlugins/revolution/revolution.extension.video.js",
+                      //"~/Scripts/JSImplementingPlugins/revolution/revolution.extension.video.js",
                       "~/Scripts/JSImplementingPlugins/dzxparallaxer/dzsparallaxer.js",
                       "~/Scripts/JSImplementingPlugins/dzxparallaxer/plugin.js",
                       "~/Scripts/JSImplementingPlugins/dzxparallaxer/scroller.js",
