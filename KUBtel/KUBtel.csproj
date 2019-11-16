@@ -1067,6 +1067,7 @@
     <Content Include="images\employee.jpg" />
     <Content Include="images\eperolehan.png" />
     <Content Include="images\ericsson.png" />
+    <Content Include="images\Faiz.jpg" />
     <Content Include="images\faizal.JPG" />
     <Content Include="images\fitness-100x50.jpg" />
     <Content Include="images\fitness.jpg" />
@@ -1667,6 +1668,7 @@
     <Content Include="images\Radio_Television_Malaysia.png" />
     <Content Include="images\raisecom.png" />
     <Content Include="images\rayaoffice.jpg" />
+    <Content Include="images\Razlina.jpg" />
     <Content Include="images\robi.png" />
     <Content Include="images\rohazliza.jpg" />
     <Content Include="images\ruckus.png" />
