@@ -63,8 +63,7 @@ namespace KUBtel
                       //"~/Scripts/JSImplementingPlugins/home.js"
                       ));
             bundles.Add(new ScriptBundle("~/bundles/JSPages").Include(
-                      "~/Scripts/JSPages/Initialization.js",
-                      "~/Scripts/custom.js"
+                      "~/Scripts/JSPages/Initialization.js"
                 ));
             bundles.Add(new StyleBundle("~/bundles/CSSCompulsory").Include(
                       "~/Content/CSSGlobalCompulsory/bootstrap.css",
@@ -100,8 +99,8 @@ namespace KUBtel
                       "~/Content/CSSImplementingPlugins/masterslider.main.css",
                       //"~/Content/CSSImplementingPlugins/normalize.css",
                       "~/Content/CSSImplementingPlugins/styles.op-business.css",
-                      "~/Content/CSSImplementingPlugins/custom.css",
-                      "~/Content/CSSImplementingPlugins/jquery-ui.css"
+                      "~/Content/CSSImplementingPlugins/custom.css"
+                      //"~/Content/CSSImplementingPlugins/jquery-ui.css"
                       ));
         }
     }
